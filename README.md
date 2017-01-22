@@ -15,10 +15,10 @@ Test coherence between the UFO and sunspot activity at diff. frequencies
 
 ![image](https://raw.githubusercontent.com/amandalouparker/solaractivity/master/imgs/UFOsunspots_freqCoherence.png "UFO and sunspots signal coherence")
 
-Granger test if sunspot and predict UFO sightings
+Granger test if historical sunspot counts can predict UFO sightings
 
 ![image](https://raw.githubusercontent.com/amandalouparker/solaractivity/master/imgs/UFOsunspots_granger_pvals.png "UFO and sunspots granger p values")
 
 #### Results
-Looks like there is a seasonal cycle shared between UFO report and sunspot counts. 
+Looks like there is a seasonal cycle shared between UFO reports and sunspot count. 
 This result is different to the null result reported by http://www.rense.com/general3/sunufo.htm (1940-1975) possibly due to when the nuforc data set was gathered (during the internet 1997-2013) and/or it's larger by nearly 8. 
