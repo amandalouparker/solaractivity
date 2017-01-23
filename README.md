@@ -46,15 +46,20 @@ Decompose timeseries into seasonal, trend and residual components.
 #### Results
 Granger tests comparing total sunspot number with UFO reports were not significant. However, the count of sunspot obersvations (shown in graphs) did appear to significantly predict UFO reports at lags of 1-12 months. This is consistent with the signal coherence result and points to a seasonal trend. 
 
-The time series decomposition shows seasonal trends in both data sets, significant with the Granger test. When the seasonal component was removed, only the seasonal and residual components alone remained significant - the time series with the seasonal component removed and the trend alone were not. It's possible that seasonal variations in human behavior (reporting the observations) or atmospheric conditions that effect visibility are involved.
+The time series decomposition shows seasonal trends in both data sets, significant with the Granger test. When the seasonal component was removed, only the seasonal and residual components alone remained significant - the time series with the seasonal component removed and the trend alone were not. Given the strong seasonal component, It's possible that seasonal variations in human behavior (reporting the observations) or atmospheric conditions that effect visibility are involved to some extent. 
 
+When both the trend and seasonal components were removed, the sunspot and UFO residual timeseries still tested significant with the Granger test, indicating a relationship beyond the seasonal pattern. 
+
+![image](https://raw.githubusercontent.com/amandalouparker/solaractivity/master/imgs/UFOsunspots_granger_pvals_residual_only.png)
+
+This result implies that sunspot obervation frequency does appear to predict UFO sightings. Further exploration of the difference between sunspot observation counts and total sunspot number will clarify the relationship between solar activity and UFO sightings.
 
 #### Further questions
 * Does UFO sighting duration vary in any systematic way?
 * Likewise the shape of the reported UFO
 * Location: does longitude/lattitude of UFO report shift with solar activity?
 * Effect of internet on increase in UFO reports
-* Add aurora activity/sightings data
+* Compare aurora activity/sightings data
 
 #### References
 Geophysical Variables and Human Behavior: XVIII. Expected Perceptual Characteristics and Local Distributions of Close UFO Reports
@@ -77,5 +82,4 @@ http://www.express.co.uk/news/nature/576454/UFO-monster-ship-draining-solar-powe
 http://www.dailymail.co.uk/sciencetech/article-3477355/Aliens-controlling-SUN-UFO-hunters-claims-spotted-strange-ships-near-solar-surface.html
 
 http://www.livescience.com/19024-refueling-ufo-solar-prominence.html
-
 
