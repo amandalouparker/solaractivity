@@ -24,27 +24,29 @@ UFO data: http://www.nuforc.org/webreports.html
 
 ![image](https://raw.githubusercontent.com/amandalouparker/solaractivity/master/imgs/UFOsunspots_1997-2016.png "UFO and sunspots 1997-2016")
 
-** Signal coherence **
+**Signal coherence**
+
 Test coherence between the UFO and sunspot observations at diff. frequencies
 
 ![image](https://raw.githubusercontent.com/amandalouparker/solaractivity/master/imgs/UFOsunspots_freqCoherence.png "UFO and sunspots signal coherence")
 
-** Granger test of causality**
+**Granger test of causality**
+
 Granger test if historical sunspot counts can predict UFO sightings
 
 ![image](https://raw.githubusercontent.com/amandalouparker/solaractivity/master/imgs/UFOsunspots_granger_pvals.png "UFO and sunspots granger p values")
 
 **Time series decomposition**
+
 Decompose timeseries into seasonal, trend and residual components. 
+
 ![image](https://raw.githubusercontent.com/amandalouparker/solaractivity/master/imgs/UFOsunspots_timeseries.png)
 
-** Auto correlation **
-Test patterns within UFO and sunspot time series with auto-correlation
 
 #### Results
-Granger tests of the total sunspot number to predict UFO report frequency were not significant. However, the count of sunspot obersvations (shown in graphs) did appear to significantly predict UFO reports at lags of 1-12 months. This is consistent with the signal coherence result and points to a seasonal trend. UFO reports over time appears relate to sunspot report count, but not total sunspots recorded.
+Granger tests comparing total sunspot number with UFO reports were not significant. However, the count of sunspot obersvations (shown in graphs) did appear to significantly predict UFO reports at lags of 1-12 months. This is consistent with the signal coherence result and points to a seasonal trend. 
 
-The time series decomposition shows seasonal trends in both data sets, testing significant with the Granger test. When the seasonal component was removed, only the seasonal and residual components alone remained significantly in sync - the time series with the seasonal component removed and the trend component alone did not significanty correlate across the two report sets. It's possible that seasonal variations in human behavior (reporting the observations) or atmospheric conditions that effect visibility are involved. These questions can be explored with intersecting data sets. 
+The time series decomposition shows seasonal trends in both data sets, significant with the Granger test. When the seasonal component was removed, only the seasonal and residual components alone remained significant - the time series with the seasonal component removed and the trend alone were not. It's possible that seasonal variations in human behavior (reporting the observations) or atmospheric conditions that effect visibility are involved.
 
 
 #### Further questions
@@ -61,8 +63,6 @@ http://journals.sagepub.com/doi/abs/10.2466/pms.1984.58.3.951
 
 Data Analysis of Anomalous Luminous Phenomena in Hessdale. Massimo Teodorani & Erling P Strand, 2001. European Journal of UFO and Abduction Studies, Vol 1(2) pp 64-82
 http://www.itacomm.net/ph/hess_e.pdf
-
-Monthly sunspot number time series analysis and its modeling through autoregressive artificial neural network
 
 http://www.rense.com/general3/sunufo.htm
 
